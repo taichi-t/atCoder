@@ -1,0 +1,28 @@
+{
+  "name": "atcoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taichi-t/atCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taichi-t/atCoder/issues"
+  },
+  "homepage": "https://github.com/taichi-t/atCoder#readme",
+  "volta": {
+    "node": "14.21.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "atcoder-cli": "^2.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^2.1.6"
+  }
+}
