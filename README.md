@@ -21,3 +21,9 @@ https://atcoder.jp/contests/abs/tasks
 - `cd practiceA`
 
 - `oj s practiceA.py`
+
+## テストファイルに関して
+
+ファイルに以下を入力する必要がある
+
+`fnName(require("fs").readFileSync("/dev/stdin", "utf8"));`
