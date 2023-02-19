@@ -1,4 +1,4 @@
-export default function welcomeToAtCoder(input: string) {
+export default function main(input: string) {
   const splitedBySentence = input.split("\n");
   const numberA = parseInt(splitedBySentence[0], 10);
   const numberB = parseInt(splitedBySentence[1].split(" ")[0], 10);
@@ -6,4 +6,4 @@ export default function welcomeToAtCoder(input: string) {
   const result = `${numberA + numberB + numberC} ${splitedBySentence[2]}`;
   console.log(result);
 }
-welcomeToAtCoder(require("fs").readFileSync("/dev/stdin", "utf8"));
+main(require("fs").readFileSync("/dev/stdin", "utf8"));

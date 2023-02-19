@@ -4,23 +4,23 @@ https://atcoder.jp/contests/abs/tasks
 
 ## テストデータダウンロード
 
-- `mkdir practiceA`
+- `mkdir {{task_id}}`
 
-- `cd practiceA`
+- `cd {{task_id}}`
 
-- `oj d https://atcoder.jp/contests/abs/tasks/practice_1`
+- `oj d https://atcoder.jp/contests/abs/tasks/{{task_id}}`
 
 ## テスト実行
 
-- `cd practiceA`
+- `cd {{task_id}}`
 
-- `oj t -c "../node_modules/.bin/ts-node practiceA.ts" -d test`
+- `oj t -c "../node_modules/.bin/ts-node main.ts" -d test`
 
 ## 投稿
 
-- `cd practiceA`
+- `cd {{task_id}}`
 
-- `oj s practiceA.py`
+- `oj s main.ts`
 
 ## テストファイルに関して
 
